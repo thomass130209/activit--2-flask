@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="bg-green-700">
+        <h1 class="text-center text-4xl text-black py-6">Quel pokémon es-tu ?</h1>
+    </header>
+
+    <main class="text-center">
+        
+        <div class="py-4">
+            <h2 class=" text-align font-bold"> {{question}}</h2>
+        </div>
+
+        <ol>
+            <li><a href="/reponse/0">{{reponses[0]}}  <button class="rounded-full bg-yellow-500 text-white px-2">⎆</button></a></li>
+            <li><a href="/reponse/1">{{reponses[1]}}  <button class="rounded-full bg-purple-500 text-white px-2">⎆</button></a></li>
+            <li><a href="/reponse/2">{{reponses[2]}}  <button class="rounded-full bg-red-500 text-white px-2">⎆</button></a></li>
+            <li><a href="/reponse/3">{{reponses[3]}}  <button class="rounded-full bg-blue-500 text-white px-2">⎆</button></a></li>
+        </ol>
+       
+    </main>
+
+
+    <footer class="fixed bottom-0 w-full bg-green-500 text-black text-center">
+        <h3>Copyright : Magicmakers</h3>
+    </footer>
+
+</body>
+
+</html>

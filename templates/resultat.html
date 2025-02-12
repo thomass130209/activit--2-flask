@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-green-500">
+        <h1 class="text-center text-4xl text-black py-6">Tu es donc :</h1>
+    </header>
+    
+    <main class="text-center">
+            <p class="ml-4 py-8 font-bold"> {{nom}}</p>
+
+        <div class=" flex justify-center py-4">
+
+            <img class="size-1/4 " src="/static/{{nom}}.png">
+        </div>
+        <div class="py-4">
+    
+                <p>{{texte}}</p>
+        </div>
+    
+    </main>
+    
+    
+    <footer class="fixed bottom-0 w-full bg-green-500 text-black text-center">
+        <h3>Copyright : Magicmakers</h3>
+    </footer>
+    
+    
+</body>
+</html>
